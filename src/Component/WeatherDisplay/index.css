@@ -1,0 +1,57 @@
+.weather-container{
+    height: 30vh;
+    width: 70vw;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .weather-sub-container{
+    border: 2px solid green;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 15px;
+    height: 18vh;
+    width: 12vw;
+  }
+  
+  .result-topic{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    height: 20%;
+  }
+  
+  .hide-show{
+    display: none;
+  }
+  
+  .result-sub-container{
+    margin-top: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 30%;
+    padding: 5px;
+  }
+  
+@media screen and (max-width: 780px){
+    .weather-container{
+      height: 70vh;
+      width: 100%;
+      flex-direction: column;
+      padding: 0px;
+    }
+    
+    .weather-sub-container{
+      border: 2px solid green;
+      background-color: greenyellow;
+      border-radius: 10px;
+      padding: 10px;
+      height: 12vh;
+      width: 65vw;
+      margin: 5px;
+    }
+  
+  }

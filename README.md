@@ -1,6 +1,6 @@
 # Weather App
 
-## web: https://weather-app-technostacks.netlify.app/
+## web: https://weather-app.vikasgupta.tech
 
 ### desktop view
 ![Screenshot 2023-06-12 212924](https://github.com/vikasgupta2/WeatherApp/assets/108712932/9f29bd75-6e85-4381-9415-afaa85107447)

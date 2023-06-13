@@ -7,7 +7,7 @@ const WeatherDisplay = (props) => {
     <div className="weather-container hide-show" id='weatherContainer'>
         <div className='weather-sub-container'>
           <p className='result-topic'>Temperature</p>
-          <p className='result-sub-container'>{temperature}<span> ° Celcius</span></p>
+          <p className='result-sub-container'>{temperature} <span>  ° Celcius</span></p>
         </div>
         <div className='weather-sub-container'>
           <p className='result-topic'>Weather description</p>
@@ -15,7 +15,7 @@ const WeatherDisplay = (props) => {
         </div>
         <div className='weather-sub-container'>
           <p className='result-topic'>Humidity</p>
-          <p className='result-sub-container'>{humidity}<span>  km/hr</span></p>
+          <p className='result-sub-container'>{humidity} <span>  %</span></p>
         </div>
         <div className='weather-sub-container'>
           <p className='result-topic'>Wind Speed</p>
